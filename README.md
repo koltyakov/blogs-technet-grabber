@@ -13,7 +13,7 @@ npm istall
 ## Backup your blogs
 
 ```bash
-npm run start -- [URL_TO_BLOG_LIST_PAGE]`
+npm run start -- [URL_TO_BLOG_LIST_PAGE]
 ```
 
 for instance:
