@@ -1,0 +1,26 @@
+{
+  "name": "sp-auth-puppeteer-sample",
+  "version": "1.0.0",
+  "main": "./build/main.js",
+  "scripts": {
+    "start": "ts-node ./src/main",
+    "tslint": "tslint 'src/**/*.{ts,tsx}'",
+    "build": "rimraf ./build && npm run tslint && tsc -p ."
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "puppeteer": "^1.9.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/mkdirp": "^0.5.2",
+    "@types/node": "^10.11.5",
+    "@types/puppeteer": "^1.9.0",
+    "@types/request": "^2.48.1",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.1.3"
+  }
+}
